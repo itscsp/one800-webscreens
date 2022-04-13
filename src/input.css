@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+*:focus-visible{
+    outline: none;
+}
+
+.circleWraper:not(#circleWraper3){
+    margin-right: 112px;
+}
+
+.cricle{
+    width: 29px;
+    height: 29px;
+    /* background: #18927F; */
+    line-height: 25px;
+    border-radius: 50%;
+    color: #fff;
+    border:2px solid #18927F;
+    position: relative;
+}
+
+.circle_dot{
+    width: 10px;
+    height: 10px;
+    background-color: #18927F;
+    position: absolute;
+    top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.circle_dot_fill {
+    width: 29px;
+    height: 29px;
+    content: "hi";
+    color: #fff;
+}
+
+
+
+.circle_line:not(#circleWraper3){
+    width: 113px;
+    height: 3px;
+    background: #18927F;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    left: 26px;
+}
+
+/* .loginbg{
+    background-image: url('assets\loginImg\login-bg.svg');
+} */
