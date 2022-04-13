@@ -3,6 +3,8 @@ import { useLocation } from 'react-router-dom'
 import Mainheader from './Mainheader'
 import Subheader from './Subheader'
 import TopHeader from './TopHeader'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
 
 const Header = () => {
 
