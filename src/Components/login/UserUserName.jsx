@@ -28,7 +28,7 @@ const UserUserName = (props) => {
     >
       {({ errors, touched }) => (
         <Form>
-          <div className="w-9/12 mx-auto">
+
             <label className="">
               <p className="text-lg text-black mb-1">Choose Username</p>
               <Field
@@ -42,17 +42,17 @@ const UserUserName = (props) => {
               </p>
             </label>
 
-            <div className="avathars w-1/2 mx-auto">
+            <div className="avathars w-9/12 md:w-1/2 mx-auto">
               <p className="text-lg text-black mb-1 text-center mb-[20px]">
                 Choose Your Avathar
               </p>
-              <div className="grid grid-cols-3 gap-5 justfiy-center items-center">
-                <img width="65px" src="assets/loginImg/avathar6.svg" alt="" />
-                <img width="65px" src="assets/loginImg/avathar5.svg" alt="" />
-                <img width="65px" src="assets/loginImg/avathar4.svg" alt="" />
-                <img width="65px" src="assets/loginImg/avathar3.svg" alt="" />
-                <img width="65px" src="assets/loginImg/avathar2.svg" alt="" />
-                <img width="65px" src="assets/loginImg/avathar1.svg" alt="" />
+              <div className="grid grid-cols-3 gap-5 justfiy-center items-center profilePic">
+                <img  width="75px" src="assets/loginImg/avathar6.svg" alt="" />
+                <img width="75px" src="assets/loginImg/avathar5.svg" alt="" />
+                <img width="75px" src="assets/loginImg/avathar4.svg" alt="" />
+                <img width="75px" src="assets/loginImg/avathar3.svg" alt="" />
+                <img width="75px" src="assets/loginImg/avathar2.svg" alt="" />
+                <img width="75px" src="assets/loginImg/avathar1.svg" alt="" />
               </div>
             </div>
 
@@ -73,7 +73,6 @@ const UserUserName = (props) => {
                 Next
               </button>
             </div>
-          </div>
         </Form>
       )}
     </Formik>

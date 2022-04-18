@@ -8,11 +8,6 @@ import 'slick-carousel/slick/slick-theme.css'
 
 const Header = () => {
 
-  let location  = useLocation()
-
-   useEffect(() => {
-      return console.log('hi')
-   },[location])
 
   return (
     <header>
@@ -21,7 +16,10 @@ const Header = () => {
 
       </div>
       { window.location.pathname === '/' ? <Mainheader /> : null }
-      { window.location.pathname === '/' ? <Subheader /> : null }
+
+      <div className="bg-white">
+        { window.location.pathname === '/' ? <Subheader /> : null }
+      </div>
     </header>
   )
 }

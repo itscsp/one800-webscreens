@@ -5,8 +5,8 @@ import classes from "./css/header.module.css";
 
 const TopHeader = () => {
   return (
-    <div className="container m-auto grid grid-cols-12 items-center px-12 gap-4 py-4">
-      <div className=" col-span-8 flex items-center">
+    <div className="container m-auto grid grid-cols-12 items-center px-4 lg:px-12 gap-4 py-4">
+      <div className="col-span-3 lg:col-span-8 flex items-center">
         <div className="realtive mr-[50px]">
         <Link to="/">
             <img
@@ -17,7 +17,7 @@ const TopHeader = () => {
         </Link>
 
         </div>
-        <nav className="col-span-7 justify-self-start ml-[50px]">
+        <nav className="hidden lg:block col-span-7 justify-self-start ml-[50px]">
           <ul className="flex gap-5 text-white">
             <li className="flex justify-start aligned-center gap-[5px] font-semibold text-[1.rem]  cursor-pointer  leading-2">
               <img src="/assets/icons/Home.svg" alt="" />
@@ -42,7 +42,7 @@ const TopHeader = () => {
                 <input className="w-[400px] border-0 focus:outline-none" type="text" placeholder="Search" />
             </div> */}
       </div>
-      <nav className="col-span-4 justify-self-end">
+      <nav className="col-span-9 lg:col-span-4 justify-self-end">
         <ul className="flex gap-5 text-white">
           <li className="flex justify-start items-center gap-[5px] font-semibold text-[1.rem]  cursor-pointer leading-2">
             <img src="/assets/icons/Search.svg" alt="" />
@@ -54,12 +54,12 @@ const TopHeader = () => {
             Profile
           </li>
           <li className="notification relative  cursor-pointer">
-            <span className="absolute bg-white -top-[15px] -right-[13px] rounded-full px-[7px] font-semibold text-black border-4 border-green-900 leading-[23px]">
+            <span className="absolute bg-red -top-1 -right-1 rounded-full px-[4px] font-semibold text-white border-2 border-white leading-[13px] text-[8px]">
               9
             </span>
             <img
               className="inline"
-              src="/assets/icons/Bell.svg"
+              src="/assets/icons/Notification.svg"
               alt="notification"
             />
           </li>

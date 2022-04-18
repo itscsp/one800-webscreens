@@ -38,23 +38,25 @@ const WelcomeScreen = () => {
   return (
     <div className='container m-auto '>
 
-        <div className='pt-[82px] h-100%  grid grid-cols-12 px-12'>
+        <div className='pt-[82px] h-100%  grid gap-5 md:gap-1 grid-cols-12 justify-center'>
 
-          <div className="steps col-span-7 ">
+          <div className="steps col-span-12 xl:col-span-7 ">
             <div className='py-[62px]'>
               <StepNav labelArray={labelArray} currentStep={currentStep}></StepNav>
             </div>
+            <div className=" w-11/12 lg:w-10/12 xl:w-9/12 mx-auto">
             {currentStep === 0 && <UserMobileNumber updateCurrentStep={updateStep} />}
             {currentStep === 1 && <UserMail updateCurrentStep={updateStep} />}
             {currentStep === 2 && <UserUserName updateCurrentStep={updateStep}  />}
             {currentStep === 3 && <UserProfile updateCurrentStep={updateStep} />}
+            </div>
 
           </div>
 
 
-          <div className="bg col-span-5 ">
+          <div className="bg col-span-12  xl:col-span-5 justify-self-center">
             <img src="assets/loginImg/login-bg.svg" alt="" />
-            <div className="flex gap-5 mt-[10%] mb-5">
+            <div className="flex flex-col mx-10 md:mx-0 md:flex-row gap-5 mt-[10%] mb-5">
               <img className='cursor-pointer' src="assets/loginImg/appleButton.svg" alt="" />
               <img className='cursor-pointer' src="assets/loginImg/googleButton.svg" alt="" />
             </div>

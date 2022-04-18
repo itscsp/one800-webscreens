@@ -34,7 +34,7 @@ const loginValid = Yup.object().shape({
     >
       {({ errors, touched }) => (
       <Form>
-    <div className="w-9/12 mx-auto">
+
 
         <label className="">
           <p className="text-lg text-black mb-1">Name</p>
@@ -69,12 +69,13 @@ const loginValid = Yup.object().shape({
                 </button>
 
 
+
                 <button type="submit" className='w-full gap-1 border-2 border-green-900 bg-green-900 py-[15px] px-[45px] rounded-[15px]  text-center text-white'>
                     Next
                 </button>
         </div>
 
-    </div>
+
     </Form>
       )}
     </Formik>

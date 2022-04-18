@@ -26,7 +26,7 @@ const UserMobileNumber = (props) => {
   >
     {({ errors, touched }) => (
       <Form>
-        <div className="w-9/12 mx-auto">
+
         <label className="">
           <p className="text-lg text-black mb-1">Mobile number</p>
           <Field
@@ -42,18 +42,18 @@ const UserMobileNumber = (props) => {
               ) : null }
             </p>
         </label>
-        <div className="flex mt-[50px] justify-center gap-4">
-          <button className="flex items-center gap-1 border-2 border-green-900 py-[15px] px-[45px] rounded-[15px] w-full">
+        <div className="flex flex-col-reverse md:flex-row mt-[50px] justify-center gap-4">
+          <button className="flex justify-center items-center gap-1 border-2 border-green-900 py-[15px] px-[45px] rounded-[15px] w-full">
             <FcIcons.FcGoogle />
             Continue with Google
           </button>
-
+          <p className="text-center md:hidden">OR</p>
           <button
             type="submit"
             value="Verify with Mobile number"
             className="text-white bg-green-900 py-[15px] px-[50px] rounded-[15px] w-full">Verify with Mobile number</button>
         </div>
-        </div>
+
       </Form>
     )}
     </Formik>

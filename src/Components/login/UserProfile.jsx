@@ -1,4 +1,5 @@
 import React from 'react'
+import ProfileButton from './ProfileButton';
 
 const UserProfile = (props) => {
 
@@ -10,7 +11,7 @@ const UserProfile = (props) => {
   };
 
   return (
-    <div className='w-9/12 mx-auto'>
+    <>
       <div className="singleAvathar flex flex-col items-center justify-center">
         <img className='text-center' width='60px' src="/assets/loginImg/avathar6.svg" alt="" />
         <p className="font-semibold">Name Something</p>
@@ -19,11 +20,13 @@ const UserProfile = (props) => {
       </div>
       <div className="mt-[30px] flex flex-wrap gap-3  justify-center">
         {choise.map((item, index) => {
-          return (<button key={index} className="gap-1 border border-green-900 hover:bg-green-900  py-[15px] px-[25px] rounded-[15px]  text-center text-green-900 hover:text-white">{item}</button>)
+          return (
+            <ProfileButton item={item} index={index} />
+          )
         })}
       </div>
 
-      <div className="flex mt-[50px] justify-center gap-4 pb-10">
+      <div className="flex flex-col-reverse md:flex-row mt-[50px] justify-center gap-4 pb-10">
         <button
           onClick={() => {
             submitHandler("stepback");
@@ -43,7 +46,7 @@ const UserProfile = (props) => {
         </button>
       </div>
 
-    </div>
+    </>
   )
 }
 

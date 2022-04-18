@@ -68,20 +68,33 @@ svg.slick-arrow{
     border-radius:9px;
 }
 
-.subheader .slick-list{
-    margin: 0px 0px 0px 20px;
-    padding: 0 50px 0 0 !important;
-
-}
 
 .homeSlider .slick-slide{
-    margin-right: 30px;
+
 }
 
-/* .homeSlider .slick-slide:nth-child(2){
-    margin-right: 30px;
-} */
 
-.homeSlider .slick-slide:last-child{
-    display: none;
+
+.profilePic img {
+    border: 1px solid transparent;
+    padding: 5px;
 }
+
+.profilePic img:hover  {
+    border-radius: 52px 44px 47px 37px;
+    border: 1px solid #18927f;
+
+    background: #18927f24;
+}
+
+@media (max-width: 768px) {
+
+    .circleWraper:not(#circleWraper3){
+        margin-right: 60px;
+    }
+
+    .circle_line:not(#circleWraper3) {
+        width: 62px;
+    }
+
+ }

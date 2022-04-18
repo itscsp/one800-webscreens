@@ -31,7 +31,7 @@ const data = [
     icon: "assets/icons/Fridge.svg",
   },
   {
-    title : "Washing Machine",
+    title : "WashingMachine",
     icon: "/assets/icons/Washing Machine.svg",
   },
   {
@@ -103,14 +103,13 @@ const Mainheader = () => {
 
   const sliderSettings = {
     arrows: false,
-    slidesToShow: 12,
     slidesToScroll: 6,
     infinite: false,
     responsive: [
       {
         breakpoint: 1900,
         settings: {
-          slidesToShow: 12,
+          slidesToShow: 12.5,
 
 
         }
@@ -118,7 +117,7 @@ const Mainheader = () => {
       {
         breakpoint: 1600,
         settings: {
-          slidesToShow: 12,
+          slidesToShow: 11.5,
           slidesToScroll: 2,
 
         }
@@ -126,15 +125,39 @@ const Mainheader = () => {
       {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 8,
+          slidesToShow: 7.5,
           slidesToScroll: 1
         }
-      }
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 6.5,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 5.5,
+          slidesToScroll: 1
+        }
+      },
+
+      {
+        breakpoint: 450,
+        settings: {
+          slidesToShow:3.5,
+          slidesToScroll: 3
+        }
+      },
+
+
     ]
   }
 
   return (
-    <div className='bg-green-400 pt-[40px] pb-[35px]'>
+    <div className='bg-green-400 pt-5 pb-4  lg:pt-10 lg:pb-8'>
       <Slider {...sliderSettings}>
       {
 
