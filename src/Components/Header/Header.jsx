@@ -16,8 +16,9 @@ const Header = () => {
     // runs on location, i.e. route, change
     if(location.pathname === '/'){
       setHeaderActive(true)
+    }else{
+      setHeaderActive(false)
     }
-    console.log('handle route change here', location)
   }, [location,HeaderActive])
 
 

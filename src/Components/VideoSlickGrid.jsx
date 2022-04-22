@@ -1,10 +1,11 @@
 import React from "react";
 import { AiFillEye } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const VideoSlickGrid = ({item}) => {
   return (
-
-      <div className='mr-[15px] lg:mr-[30px]'>
+    <div className='mr-[15px] lg:mr-[30px]'>
+        <Link to={item.url}>
 
         <img src={item.videoThumnail} alt="" />
         <div className={`shortDesc md:flex justify-between p-[15px] ${item.type === "Fix" ? "bg-blue-900" : "bg-purple-900"} rounded-b-[20px]`}>
@@ -26,7 +27,7 @@ const VideoSlickGrid = ({item}) => {
         <p>
           {item.description}
         </p>
-
+    </Link>
       </div>
 
   );

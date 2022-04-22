@@ -103,17 +103,10 @@ const Mainheader = () => {
 
   const sliderSettings = {
     arrows: false,
+    slidesToShow: 12.5,
     slidesToScroll: 6,
     infinite: false,
     responsive: [
-      {
-        breakpoint: 1900,
-        settings: {
-          slidesToShow: 12.5,
-
-
-        }
-      },
       {
         breakpoint: 1600,
         settings: {

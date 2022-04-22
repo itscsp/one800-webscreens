@@ -7,6 +7,7 @@ export const dataFixes = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Fix",
+        url: '/videoplayer'
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -16,6 +17,7 @@ export const dataFixes = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Fix",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -25,6 +27,7 @@ export const dataFixes = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Fix",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -34,6 +37,7 @@ export const dataFixes = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Fix",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -43,6 +47,7 @@ export const dataFixes = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Fix",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -52,6 +57,7 @@ export const dataFixes = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Fix",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -61,6 +67,7 @@ export const dataFixes = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Fix",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -70,6 +77,7 @@ export const dataFixes = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Fix",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -79,6 +87,7 @@ export const dataFixes = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Fix",
+        url: '/videoplayer',
     },
 
   ]
@@ -92,6 +101,7 @@ export const dataFlicks = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Flick",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -101,6 +111,7 @@ export const dataFlicks = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Flick",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -110,6 +121,7 @@ export const dataFlicks = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Flick",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -119,6 +131,7 @@ export const dataFlicks = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Flick",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -128,6 +141,7 @@ export const dataFlicks = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Flick",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -137,6 +151,7 @@ export const dataFlicks = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Flick",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -146,6 +161,7 @@ export const dataFlicks = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Flick",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -155,6 +171,7 @@ export const dataFlicks = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Flick",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -162,6 +179,7 @@ export const dataFlicks = [
         ownername: "Ram kumar something",
         duration: "5",
         views: "1657",
+        url: '/videoplayer',
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Flick",
     },
@@ -177,6 +195,7 @@ export const Recommended = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Fix",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -186,6 +205,7 @@ export const Recommended = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Flick",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -195,6 +215,7 @@ export const Recommended = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Fix",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -204,6 +225,7 @@ export const Recommended = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Flick",
+        url: '/videoplayer',
     },
 
     {
@@ -214,6 +236,7 @@ export const Recommended = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Fix",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -223,6 +246,7 @@ export const Recommended = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Fix",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -232,6 +256,7 @@ export const Recommended = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Flick",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -241,6 +266,7 @@ export const Recommended = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Fix",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -250,6 +276,7 @@ export const Recommended = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Flick",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -259,6 +286,7 @@ export const Recommended = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Fix",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -268,6 +296,7 @@ export const Recommended = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Flick",
+        url: '/videoplayer',
     },
 
     {
@@ -278,6 +307,7 @@ export const Recommended = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Fix",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -287,6 +317,7 @@ export const Recommended = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Fix",
+        url: '/videoplayer',
     },
     {
         videoThumnail: "/assets/videoImage/vedioImg1.png",
@@ -296,6 +327,7 @@ export const Recommended = [
         views: "1657",
         description: "Half dim Backlight (got black spot at the bottom of the screen)Half dim Backlight (got black spot at the bottom of. ",
         type: "Flick",
+        url: '/videoplayer',
     },
 
 

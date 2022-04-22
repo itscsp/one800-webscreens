@@ -69,9 +69,20 @@ svg.slick-arrow{
 }
 
 
-.homeSlider .slick-slide{
 
+
+.playerRight,
+.playerLeft {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
 }
+
+.playerRight::-webkit-scrollbar,
+.playerLeft::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
 
 
 
@@ -95,6 +106,10 @@ svg.slick-arrow{
 
     .circle_line:not(#circleWraper3) {
         width: 62px;
+    }
+
+    .thumnail-container{
+        height: 250px !important;
     }
 
  }

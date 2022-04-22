@@ -77,14 +77,18 @@ const Home = () => {
         {selector.videoType == "flick" &&
           dataFlicks.map((item, index) => {
           return(
-            <VideoSlickGrid item={item} key={index}/>
+
+              <VideoSlickGrid item={item} key={index} />
+
           )
         })}
 
         {selector.videoType == "fix" &&
           dataFixes.map((item, index) => {
           return(
-            <VideoSlickGrid item={item} key={index}/>
+
+            <VideoSlickGrid item={item} key={index} />
+
           )
         })}
 
@@ -105,14 +109,18 @@ const Home = () => {
           {selector.videoType == "flick" &&
             dataFlicks.map((item, index) => {
             return(
-              <VideoSlickGrid item={item} key={index}/>
+
+              <VideoSlickGrid item={item} key={index} />
+
             )
           })}
 
           {selector.videoType == "fix" &&
             dataFixes.map((item, index) => {
             return(
-              <VideoSlickGrid item={item} key={index}/>
+
+              <VideoSlickGrid item={item} key={index} />
+
             )
           })}
 
@@ -129,7 +137,10 @@ const Home = () => {
         <div className="grid gap-[15px] lg:gap-[30px] grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {Recommended.map((item, index) => {
             return(
-              <VideoGrid item={item} key={index}/>
+              <Link to={item.url} key={index}>
+
+              <VideoGrid item={item} height={'220px'}/>
+            </Link>
             )
           })}
         </div>
