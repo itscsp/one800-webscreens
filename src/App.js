@@ -3,6 +3,7 @@ import Home from "./screens/Home";
 import Register from "./screens/Register";
 import Header from "./Components/Header/Header";
 import VideoPlayer from "./screens/VideoPlayer";
+import AskQuetion from "./screens/AskQuetion";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/register" element={<Register />} />
         <Route exact path="/videoplayer" element={<VideoPlayer />} />
+        <Route exact path="/ask-question" element={<AskQuetion />} />
       </Routes>
     </div>
   );

@@ -56,6 +56,7 @@ const VideoPlayer = () => {
                     </div>
                 </div>
             </div>
+
         </div>
 
   )
