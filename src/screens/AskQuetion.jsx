@@ -3,12 +3,14 @@ import QuestionForm from '../Components/questions/QuestionForm'
 
 const AskQuetion = () => {
   return (
-    <div className='container m-auto '>
+    <div className='container m-auto bg-white'>
 
     <div className='pt-[82px] h-[100vh]  grid gap-5 md:gap-1 grid-cols-12 justify-center'>
 
       <div className="steps col-span-12 xl:col-span-7 ">
+        <div className=" w-11/12 lg:w-10/12 xl:w-9/12 mx-auto">
             <QuestionForm />
+        </div>
       </div>
 
 

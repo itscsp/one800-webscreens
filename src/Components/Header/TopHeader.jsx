@@ -27,10 +27,12 @@ const TopHeader = () => {
               <img src="/assets/icons/whiteone800.svg" alt="" />
               Explore
             </li>
+            <Link to="/ask-question">
             <li className="flex justify-start aligned-center gap-[5px] font-semibold text-[1.rem]   cursor-pointer leading-2">
               <img src="/assets/icons/AskQuestion.svg" alt="" />
               Ask
             </li>
+            </Link>
             <li className="flex justify-start aligned-center gap-[5px] font-semibold text-[1.rem]  cursor-pointer leading-2">
               <img src="/assets/icons/NearMe.svg" alt="" />
               <span>Near Me</span>
